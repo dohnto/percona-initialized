@@ -8,4 +8,6 @@ RUN mkdir /var/lib/mysql2 && \
 
 RUN /docker-entrypoint.sh mysqld
 
+COPY *.sh /docker-mysql-tools/
+
 ENTRYPOINT mysqld
