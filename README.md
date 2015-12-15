@@ -1,2 +1,2 @@
 # percona-initialized
-Dockerfiles for modified percona image whit initialized database.
+Dockerfiles for modified percona image with initialized database.
